@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>the ag_deck</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <link href="public/custom.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle
+background-image: url(public/img/pbn_fast.jpg)
+background-color: #FFE4C4
+
+![npm logo](public/img/npm5.svg) 
+
+---
+class: center, middle
+background-image: url(public/img/pbn_ship.jpg)
+background-color: #FFE4C4
+
+## http://bit.ly/berlinjs-2017
+### (gh-pages: ashleygwilliams/berlinjs-2017)
+
+---
+class: center, middle
+background-image: url(public/img/pbn_ship.jpg)
+background-color: #FFE4C4
+
+# hi my name is @ag_dubs
+
+---
+class: center, middle
+background-image: url(public/img/pbn_forest.jpg)
+background-color: #FFE4C4
+
+# over the last year
+# .real-big[70 billion]
+# package downloads occured
+
+.citation[https://twitter.com/seldo/status/845094537752014852. 23 March 2017.]
+
+---
+class: center, middle
+background-image: url(public/img/pbn_forest.jpg)
+background-color: #FFE4C4
+
+![rolling-weekly-download](public/img/rolling-downloads.jpg)
+
+.citation[https://twitter.com/seldo/status/845094537752014852. 23 March 2017.]
+
+---
+class: center, middle
+
+## stuff everybody knows
+# `npm install`
+
+---
+class: center, middle
+
+## stuff not everyone knows
+![i dont know](public/img/idontknow.gif)
+
+---
+class: top, left
+
+## create a package.json
+# `npm init`
+
+- ### knows your deps from node_modules
+- ### knows your repository from git repo
+- ### always adds keys, never deletes
+
+![chick](public/img/chick.png)
+
+---
+class: top, left
+
+## create a package.json with defaults
+# `npm init --yes`
+
+![yes](public/img/yes.gif)
+
+---
+class: top, left
+
+## customize npm init questions
+# `~/.npm-init.js`
+
+### enforce license and best practices
+
+![question](public/img/question.png)
+![art](public/img/art.png)
+![question](public/img/question.png)
+
+---
+class: center, middle
+
+# check your package before you publish!
+
+
+# `npm pack`
+# `tar xvzf pkg.tar.gz`
+
+---
+class: left, middle
+
+# `"files": [...]`
+
+### - add as an array to your package.json
+### - list the files that should be included
+### - some things are included even if they aren't listed like package.json or a README
+
+---
+class: center, middle
+background-image: url(public/img/pbn_fast.jpg)
+
+![npm5](public/img/npm5.svg)
+
+---
+class: center, middle
+background-image: url(public/img/pbn_ducks.jpg)
+
+# offline-enabled by default
+
+---
+class: center, middle
+background-image: url(public/img/pbn_swans.jpg)
+
+# `package-lock.json`
+
+---
+class: center, middle
+background-image: url(public/img/pbn_swans.jpg)
+
+# you can't publish a lockfile!
+
+.citation[]
+
+---
+class: center, middle
+background-image: url(public/img/pbn_setter.jpg)
+
+# sha512
+
+---
+class: center, middle
+background-image: url(public/img/pbn_setter.jpg)
+
+# end to end cache recovery
+
+---
+class: center, middle
+background-image: url(public/img/pbn_fast.jpg)
+
+# install the beta!
+# `npm i npm5 -g`
+
+---
+class: center, middle
+background-image: url(public/img/pbn_cat.jpg)
+
+# dev with us
+
+---
+class: center, middle
+background-image: url(public/img/pbn_cat.jpg)
+
+# pacote
+## programmatic npm package and metadata downloader
+### https://github.com/zkat/pacote
+
+---
+class: center, middle
+background-image: url(public/img/pbn_cat.jpg)
+
+# cacache
+##  local key and content address cache mgmt
+### https://github.com/zkat/cacache
+
+---
+class: center, middle
+background-image: url(public/img/pbn_cat.jpg)
+
+# make-fetch-happen
+## node-fetch plus cache support, request pooling, and more
+### https://github.com/zkat/make-fetch-happen
+
+---
+class: center middle
+background-image: url(public/img/pbn_cat.jpg)
+
+# ssri
+## standard subresource integrity
+### https://github.com/zkat/ssri
+
+
+---
+class: center, middle
+background-image: url(public/img/pbn_field.jpg)
+background-color: #FFE4C4
+
+# npm is being used for a lot of things we never expected
+
+---
+class: center, middle
+background-image: url(public/img/pbn_field.jpg)
+background-color: #FFE4C4
+
+![greenkeeper](public/img/greenkeeper.png)
+
+---
+class: center, middle
+background-image: url(public/img/pbn_field.jpg)
+background-color: #FFE4C4
+
+![npms](public/img/npms.png)
+
+---
+class: center, middle
+background-image: url(public/img/pbn_field.jpg)
+background-color: #FFE4C4
+
+![yarn](public/img/yarn.jpg)
+
+---
+class: center, middle
+background-image: url(public/img/pbn_field.jpg)
+background-color: #FFE4C4
+
+![cnpm](public/img/cnpm.png)
+
+---
+class: center, middle
+background-image: url(public/img/pbn_ship.jpg)
+background-color: #FFE4C4
+
+# and so can you!
+
+---
+class: center, middle
+background-image: url(public/img/pbn_ship.jpg)
+background-color: #FFE4C4
+
+# public APIs
+
+---
+class: center, middle
+background-image: url(public/img/pbn_ship.jpg)
+background-color: #FFE4C4
+
+# downloads API
+
+![blog downloads](public/img/blogdownloads.png)]
+
+.citation[http://blog.npmjs.org/post/92574016600/numeric-precision-matters-how-npm-download-counts]
+
+---
+class: center, middle
+background-image: url(public/img/pbn_ship.jpg)
+background-color: #FFE4C4
+
+![](public/img/downloadsapi1.png)
+![](public/img/downloadsapi2.png)
+![](public/img/downloadsapi3.png)
+
+.citation[https://github.com/npm/registry/blob/master/docs/download-counts.md]
+---
+class: center, middle
+background-image: url(public/img/pbn_ship.jpg)
+background-color: #FFE4C4
+
+# search API
+![search api](public/img/searchapi.png)
+
+.citation[https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md#get-v1search]
+---
+class: center, middle
+background-image: url(public/img/pbn_ship.jpg)
+background-color: #FFE4C4
+
+# registry changes-stream
+# [https://replicate.npmjs.com](https://replicate.npmjs.com)
+
+.citation[https://github.com/jcrugzz/changes-stream]
+---
+class: center, middle
+background-image: url(public/img/pbn_ship.jpg)
+background-color: #FFE4C4
+
+## write a registry follower
+
+![follower](public/img/follower.png)
+
+.citation[https://github.com/npm/registry/blob/master/docs/follower.md]
+
+---
+class: center, middle
+background-image: url(public/img/pbn_ship.jpg)
+background-color: #FFE4C4
+
+# webhooks
+![priate wombat](public/img/piratewombat.png)
+
+---
+class: center, middle
+background-image: url(public/img/pbn_ship.jpg)
+background-color: #FFE4C4
+
+![hook events](public/img/hookevents.png)
+
+.citation[https://github.com/npm/registry/tree/master/docs/hooks]
+---
+class: center, middle
+background-image: url(public/img/pbn_ship.jpg)
+background-color: #FFE4C4
+
+# notifications in slack
+
+![captain hook](public/img/captainhook.png)
+
+.citation[https://github.com/npm/captain-hook]
+
+---
+class: center, middle
+background-image: url(public/img/pbn_ship.jpg)
+background-color: #FFE4C4
+
+![wombat cli](public/img/wombatcli.png)
+
+---
+class: center, middle
+background-image: url(public/img/pbn_ship.jpg)
+background-color: #FFE4C4
+
+.wombat[# `npm i wombat -g`]
+.wombat[# `wombat hook add <pkg> <url> <secret>`]
+
+---
+class: center, middle
+background-image: url(public/img/pbn_ship.jpg)
+background-color: #FFE4C4
+
+## [https://github.com/npm/registry/](https://github.com/npm/registry/)
+
+![registry repo](public/img/registry-repo.png)
+
+---
+class: center, middle
+background-image: url(public/img/pbn_ship.jpg)
+background-color: #FFE4C4
+
+# we are so excited to see what you build
+
+---
+class: center, middle
+
+# update your npm!
+
+# `npm i npm@latest -g`
+---
+class: center, middle
+
+# you can use any npm with any node version
+--
+
+# so you should always use the most up to date version
+
+---
+class: center, middle
+background-image: url(public/img/pbn_ship.jpg)
+background-color: #FFE4C4
+
+![npm](public/img/npm5.svg) 
+
+---
+class: center, middle
+
+# thanks!
+## `me => @ag_dubs`
+
+## bit.ly/berlinjs-2017
+
+  </textarea>
+    <script src="public/remark.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
