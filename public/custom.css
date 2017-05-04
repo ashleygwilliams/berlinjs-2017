@@ -12,6 +12,10 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+.cli img {
+  width: 40%;
+}
+
 .remark-slide-content {
   background-color: rgba(203, 56, 55, 1);
   color: white;

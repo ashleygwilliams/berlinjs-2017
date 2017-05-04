@@ -9,11 +9,9 @@
   <body>
     <textarea id="source">
 class: center, middle
-background-image: url(public/img/pbn_fast.jpg)
-background-color: #FFE4C4
 
-![npm logo](public/img/npm5.svg) 
-.code-heading[`npm install npm5 -g`]
+# you don't know
+![npm logo](public/img/npm.png) 
 
 ---
 class: center, middle
@@ -120,6 +118,13 @@ background-image: url(public/img/pbn_fast.jpg)
 
 ---
 class: center, middle
+background-image: url(public/img/pbn_fast.jpg)
+
+.cli[![kat](public/img/kat.jpg)]
+.cli[![rebecca](public/img/rebecca.jpg)]
+
+---
+class: center, middle
 background-image: url(public/img/pbn_path.jpg)
 
 .code-heading[`npm install --save`]
@@ -134,15 +139,49 @@ background-image: url(public/img/pbn_path.jpg)
 
 ---
 class: center, middle
-background-image: url(public/img/pbn_deer.jpg)
+background-image: url(public/img/pbn_path.jpg)
 
-# offline-enabled by default
+# semver ranges for git deps!
+![gitsemver](public/img/gitsemver.png)
+
+.citation[https://github.com/npm/npm/pull/15308]
 
 ---
 class: center, middle
 background-image: url(public/img/pbn_swans.jpg)
 
 # post install summary!
+
+![summary](public/img/summary.png)
+
+.citation[https://github.com/npm/npm/pull/15914]
+
+---
+class: center, middle
+background-image: url(public/img/pbn_deer.jpg)
+
+# offline-enabled by default
+
+---
+class: center, middle
+background-image: url(public/img/pbn_deer.jpg)
+
+.code-heading[`--prefer-offline`]
+### skip any conditional requests (304 checks) for stale cache data, and only hit the network if something is missing from the cache
+
+---
+class: center, middle
+background-image: url(public/img/pbn_deer.jpg)
+
+.code-heading[`--offline`]
+### force npm to use the cache or exit, will error with an ENOTCACHED code if anything it tries to install isn't already in the cache.
+
+---
+class: center, middle
+background-image: url(public/img/pbn_deer.jpg)
+
+.code-heading[`npm cache verify`]
+### garbage collect your cache, reducing disk usage for things you don't need (-handwave-), and will do full integrity verification on both the index and the content
 
 ---
 class: center, middle
