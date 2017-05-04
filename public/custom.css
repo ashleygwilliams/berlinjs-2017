@@ -31,6 +31,24 @@ li > h3 {
   padding: 0;
 }
 
+.shattered img {
+  width: 80%;
+  background-color: white;
+  padding: 10px 20px;
+}
+
+.shattered2 img {
+  width: 400px;
+}
+
+.code-heading {
+  line-height: 1.6em;
+  display: block;
+  font-weight: bold;
+  font-size: 2.6em;
+  padding: 40px 0;
+}
+
 pre, code {
   background-color: #4e4e4e;
   color: #e6e6e6;
